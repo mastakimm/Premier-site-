@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('testtest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+
+.navbar {
+    position: absolute;
+    padding: 50px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+.navbar a {
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+.lecoaching , .pourqui , .lederoulement {
+    margin: 150px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+    border: 0.2rem solid;
+    opacity: 0.76;
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+   
+    opacity: 0.75;
+}
+
+h3{
+    padding-left: 60px;
+    margin: 10px;
+}
+
+.citation {
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+    font-size: large;
+}

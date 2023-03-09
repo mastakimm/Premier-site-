@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* ***************************** navbar ****************************** */
+.navbar {
+    padding: 60px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.navbar .active a{
+    color: red;
+    font-size: 1.5em;
+}
+
+.navbar .hover1 a:hover{
+    color: yellow;
+}
+
+.navbar .hover2 a:hover{
+    color: green;
+}
+
+.navbar .hover3 a:hover{
+    color: blue;
+}
+
+.navbar .logo {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 25px;
+}
+
+/* ******************************** Main ******************************** */
+
+body {
+    background-image: url(../image/testtest.jpg);
+    background-size: cover;
+}
+
+.wrapper {
+
+    display: block;
+    width: 80vw;
+}
+
+.wrapper h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+
+.wrapper .blockimage {
+    position: relative;
+    top: 10px;
+    left: 1px;
+    width: 80vw;
+
+    
+} 
+
+.wrapper .blocktext {
+    position: relative;
+    top: 10px;
+    left: auto;
+    right: auto;
+    width: 90vw;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px -10px 20px 0px;
+    background-color: beige;
+    
+  
+}
+
+.wrapper .blocktext p{
+    margin: 20px;
+}
+
+.wrapper .blockimage .img {
+    width: 50vw;
+    opacity: 0.9;
+    height: auto;
+}
+
+.wrapper .blockimage .img #img2 {
+    height: 20vh;
+}
+
+footer {
+    margin: 10px 0 0 10px ;
+}
+
+
+
+
+
+

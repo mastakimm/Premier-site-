@@ -1,0 +1,107 @@
+* {
+   
+    text-decoration: none;
+    list-style: none;
+}
+
+body{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("../image/testtest.jpg");
+    background-size: cover;
+    color: black;
+}
+
+header{
+    background-color: white;
+}
+
+.navbar {
+    padding: 60px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.navbar .active a{
+    color: red;
+    font-size: 1.5em;
+}
+
+.navbar .hover1 a:hover{
+    color: yellow;
+}
+
+.navbar .hover2 a:hover{
+    color: green;
+}
+
+.navbar .hover3 a:hover{
+    color: blue;
+}
+
+.navbar .logo {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 25px;
+}
+
+.lecoaching , .pourqui , .lederoulement {
+    margin: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+    border: 0.2rem solid;
+    opacity: 0.95;
+    
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+    opacity: 0.75;
+}
+
+h3{
+    padding-left: 60px;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.citation {
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+    font-size: large;
+}
+
+.Témoignages {
+    background: white;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%
+}
+
+.Témoignages h2 {
+    margin-top: 10px;
+}
+
+.Témoignages p {
+    margin: 10px;
+    font-size: 1.2em;
+}
